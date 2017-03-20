@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap project KM</title>
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!--Font awesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+          <!--My style sheet-->
+    <link href="css/MyStyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!--Navigation-->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Media Central / Charts 2014</a>
+            <!--collapsale menu trigger-->
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navheadercollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navheadercollapse">
+                <ul class="nav navbar-nav navbar-right">
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="MovieRA.html">Movie Reviews</a></li>
+                    <li><a href="TVRA.html">TV Reviews</a></li>
+                    <li><a href="Charts2014.html">Charts</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+    
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Top Movie Charts
+                    <small>2014</small>
+                    <a href="Charts2016.html" class="navbar-btn btn btn-primary pull-right">2016</a>
+                    <a href="Charts2015.html" class="navbar-btn btn btn-primary pull-right">2015</a>
+                    <a href="Charts2014.html" class="navbar-btn btn btn-primary pull-right">2014</a>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/dawn.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Dawn Of The Planet Of The Apes</h3>
+                <h4>Number One</h4>
+                <p>A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.</p>
+                               <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/DpSaTrW4leg" data-toggle="modal" data-target="#videoModalape">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModalape" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/ageof.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Transformers Age Of Extinction</h3>
+                <h4>Number Two</h4>
+                <p>Autobots must escape sight from a bounty hunter who has taken control of the human serendipity: Unexpectedly, Optimus Prime and his remaining gang turn to a mechanic, his daughter, and her back street racing boyfriend for help.</p>
+                               <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/S30VkLn5a2o" data-toggle="modal" data-target="#videoModaltrans">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModaltrans" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/xMen.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>X-Men Days Of Future Past</h3>
+                <h4>Number Three</h4>
+                <p>The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.</p>
+                             <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/pK2zYHWDZKo" data-toggle="modal" data-target="#videoModalx">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModalx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/john.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>John Wick</h3>
+                <h4>Number Four</h4>
+                <p>An ex-hitman comes out of retirement to track down the gangsters that took everything from him.</p>
+                               <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/RllJtOw0USI" data-toggle="modal" data-target="#videoModaljohn">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModaljohn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Five -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/maze.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>The Maze Runner</h3>
+                <h4>Number Five</h4>
+                <p>Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.</p>
+                 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/AwwbhhjQ9Xk" data-toggle="modal" data-target="#videoModalmaze">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModalmaze" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+                             
+            </div>
+        </div>
+        
+        
+         
+    <!--footer-->
+    
+    <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+            <P class="navbar-text">site built by Kian Mason</P>
+              <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-primary loading pull-right">Contact us</a>
+         <a href="http://www.facebook.com" target="_blank" class="btn btn-primary loading">Facebook</a>
+            <a href="http://www.twitter.com" target="_blank" class="navbar-btn btn btn-info loading ">Twitter</a>
+            <a href="http://www.youtube.com" target="_blank"  class="navbar-btn btn btn-danger loading ">Youtube</a>
+        </div>
+    </div>
+    
+<!--modal-->
+    
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--modal form starts-->
+                <form class="form-horrizontal">
+                
+                <div class="modal-header"><!--Header-->
+                    <h3>Contact us</h3>
+                </div>
+                <div class="modal-body"><!--Body-->
+                    
+                <div class="form-group"><!--Name-->
+                    <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" id="contact-name" placeholder="Full Name"
+                    </div>
+                </div>
+                     <div class="form-group"><!--Email-->
+                    <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                        <input type="email" class="form-control" id="contact-email" placeholder="Email Adress"
+                    </div>
+                </div>
+                         
+                         <div class="form-group"><!--Message-->
+                    <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                    <div class="col-lg-10">
+                        <textarea class="form-control" rows="8"></textarea>
+                    </div>
+                </div>
+    
+                <div class="modal-footer"><!--Footer-->
+                    <a class="btn btn-success" type="submit">Submit</a>
+                    <a class="btn btn-default" data-dismiss="modal">
+                    close
+                    </a>
+                </div>
+            </div>
+                </form>
+            <!--modal form end-->
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>

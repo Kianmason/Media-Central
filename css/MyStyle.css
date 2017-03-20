@@ -1,0 +1,60 @@
+body {
+        padding-bottom: 20pc;
+      background: url(http://blog.hostbaby.com/wp-content/uploads/2012/05/thumbnail_abstract.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
+ 
+
+       
+ 
+        
+}
+
+/*about page mods*/
+.page-header{
+    margin-top: 0;
+}
+
+.panel-body{
+    padding-bottom: 0;
+}
+
+.featuredImg{
+    padding-bottom: 15px;
+}
+
+.mybutton {
+    margin-bottom: 15px;
+}
+
+.rel {
+   margin-top: 15px;
+}
+
+.car {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+.kong img{
+    
+   height: 100%;
+    width: 100%;
+}
+
+.spiderman img {
+    
+    height: 694px;
+    width: 1500px;
+    
+}
+

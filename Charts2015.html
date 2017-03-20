@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap project KM</title>
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!--Font awesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+          <!--My style sheet-->
+    <link href="css/MyStyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!--Navigation-->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Media Central / Charts 2015</a>
+            <!--collapsale menu trigger-->
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navheadercollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navheadercollapse">
+                <ul class="nav navbar-nav navbar-right">
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="MovieRA.html">Movie Reviews</a></li>
+                    <li><a href="TVRA.html">TV Reviews</a></li>
+                    <li><a href="Charts2014.html">Charts</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+    
+   <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Top Movie Charts
+                    <small>2015</small>
+                    <a href="Charts2016.html" class="navbar-btn btn btn-primary pull-right">2016</a>
+                    <a href="Charts2015.html" class="navbar-btn btn btn-primary pull-right">2015</a>
+                    <a href="Charts2014.html" class="navbar-btn btn btn-primary pull-right">2014</a>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/jurasic.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Jurassic World</h3>
+                <h4>Number One</h4>
+                <p>A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, which escapes containment and goes on a killing spree.</p>
+                 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/RFinNxS5KN4" data-toggle="modal" data-target="#videoModaljur">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModaljur" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/fast7.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Fast And Furious 7</h3>
+                <h4>Number Two</h4>
+                <p>Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.</p>
+                 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/Skpu5HaVkOc" data-toggle="modal" data-target="#videoModalfast">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModalfast" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/creed.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Creed</h3>
+                <h4>Numer Three</h4>
+                <p>The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.</p>
+                 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/Uv554B7YHk4" data-toggle="modal" data-target="#videoModalcreed">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModalcreed" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/term.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Terminater Genisys</h3>
+                <h4>Number Four</h4>
+                <p>When John Connor, leader of the human resistance, sends Sgt. Kyle Reese back to 1984 to protect Sarah Connor and safeguard the future, an unexpected turn of events creates a fractured timeline.</p>
+                <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/jNU_jrPxs-0" data-toggle="modal" data-target="#videoModalterm">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModalterm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Five -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="assets/ant.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Ant Man</h3>
+                <h4>Number Five</h4>
+                <p>Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.</p>
+               <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <button class="btn btn-primary btn-lg video" data-video="https://www.youtube.com/embed/pWdKf3MneyI" data-toggle="modal" data-target="#videoModalant">View Trailer<span class="glyphicon glyphicon-chevron-right"></span></button>
+  
+  <div class="modal fade" id="videoModalant" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+            </div>
+        </div>
+        
+        
+         
+    <!--footer-->
+    
+    <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+            <P class="navbar-text">site built by Kian Mason</P>
+            <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-primary loading pull-right">Contact us</a>
+         <a href="http://www.facebook.com" target="_blank" class="btn btn-primary loading">Facebook</a>
+            <a href="http://www.twitter.com" target="_blank" class="navbar-btn btn btn-info loading ">Twitter</a>
+            <a href="http://www.youtube.com" target="_blank"  class="navbar-btn btn btn-danger loading ">Youtube</a>
+        </div>
+    </div>
+    
+<!--modal-->
+    
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--modal form starts-->
+                <form class="form-horrizontal">
+                
+                <div class="modal-header"><!--Header-->
+                    <h3>Contact us</h3>
+                </div>
+                <div class="modal-body"><!--Body-->
+                    
+                <div class="form-group"><!--Name-->
+                    <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" id="contact-name" placeholder="Full Name"
+                    </div>
+                </div>
+                     <div class="form-group"><!--Email-->
+                    <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                        <input type="email" class="form-control" id="contact-email" placeholder="Email Adress"
+                    </div>
+                </div>
+                         
+                         <div class="form-group"><!--Message-->
+                    <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                    <div class="col-lg-10">
+                        <textarea class="form-control" rows="8"></textarea>
+                    </div>
+                </div>
+    
+                <div class="modal-footer"><!--Footer-->
+                    <a class="btn btn-success" type="submit">Submit</a>
+                    <a class="btn btn-default" data-dismiss="modal">
+                    close
+                    </a>
+                </div>
+            </div>
+                </form>
+            <!--modal form end-->
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>
